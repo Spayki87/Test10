@@ -10,11 +10,11 @@ namespace Последовательность
     {
         static void Main(string[] args)
         {
-            //Я выбрал цикл for потому, что извесна последовательность чисел.
-            int initialNumber;
+            int initialNumber = 5;
             int finiteNumber = 97;
+            int seguenceNumber = 7;
 
-            for(initialNumber = 5; initialNumber < finiteNumber; initialNumber+= 7)
+            for(initialNumber = 5; initialNumber < finiteNumber; initialNumber+= seguenceNumber)
             {
                 Console.WriteLine(initialNumber);
             }
